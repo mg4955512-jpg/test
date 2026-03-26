@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            max-width: 800px;
+            width: 100%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .box div {
+            border: 1px solid black;
+            padding: 10px;
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="inside_box1">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi fugiat eius unde praesentium
+                distinctio in corrupti dolorum adipisci laboriosam aut nostrum pariatur maiores recusandae commodi,
+                voluptas asperiores laborum, mollitia assumenda.</p>
+            <button onclick="CopyElement(this)">Copy</button>
+        </div>
+
+        <div class="inside_box2">
+            <p></p>
+            <button>Paste</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
